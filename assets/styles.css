@@ -143,6 +143,7 @@
             color: white;
             font-weight: bold;
             transition: opacity 0.5s ease;
+            height: 100vh;
         }
 
         .current-weather {
@@ -264,7 +265,26 @@
             color: #ff79a1;
             text-shadow: 1px 1px 5px rgba(255, 121, 161, 0.5);
         }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+  }
 
+  footer a {
+    font-weight: bolder;
+    color: rgb(247, 51, 51);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration:underline;
+  }
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
